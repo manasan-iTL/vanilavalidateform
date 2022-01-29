@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+form-group以下のスタイル
+*/
+.form-group {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.form-group__label {
+  color: #777;
+  display: block;
+  width: 100%;
+}
+
+.form-group__input {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.form-group__input :focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-group__input--error {
+  border-color: red;
+}
+
+.form-group__input--succes {
+  border-color: greenyellow;
+}
+
+.form-group__small--error {
+  color: red;
+}
+
+.form-group__small--succes {
+  color: greenyellow;
+}
+/*# sourceMappingURL=form-group.css.map */

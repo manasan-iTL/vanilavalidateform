@@ -1,0 +1,17 @@
+/*
+Formに関するスタイル
+*/
+
+.container {
+    // border: 1px solid rgb(7, 7, 7);
+    border-radius: 5px;
+    box-shadow: 0 0 8px gray;
+    width: 30%;
+    min-height: 95vh;
+    padding: 10px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+/*
+form-group以下のスタイル
+*/
+
+.form-group {
+
+    width: 100%;
+    margin-bottom: 40px;
+
+    &__label {
+        color: #777;
+        display: block;
+        width: 100%;
+    }
+
+    &__input {
+        width: 90%;
+        padding: 10px;
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        font-size: 13px;
+
+        :focus {
+            outline: 0;
+            border-color: #777;
+        }
+
+        &--error {
+            border-color: red;
+        }
+
+        &--succes {
+            border-color: greenyellow;
+        }
+    }
+
+    &__small {
+        &--error {
+            color: red;
+        }
+        &--succes {
+            color: greenyellow;
+        }
+    }
+}
